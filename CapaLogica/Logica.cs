@@ -10,7 +10,7 @@ namespace CapaLogica
     {
 
         String nombre = "admin";
-        String contra = "0000";
+        String contra = "999";
         String alerta = "";
 
         public Boolean revisarCredenciales(String usuario, String contraseña)
@@ -18,7 +18,7 @@ namespace CapaLogica
 
             if (usuario.Equals(nombre) && contraseña.Equals(contra))
             {
-                return true;
+                return false;
             }
             else if (!usuario.Equals(nombre) && contraseña.Equals(contra))
             {
