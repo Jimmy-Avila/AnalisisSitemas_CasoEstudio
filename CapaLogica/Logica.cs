@@ -9,8 +9,8 @@ namespace CapaLogica
     public class Logica
     {
 
-        String nombre = "admin";
-        String contra = "0000";
+        String nombre = "Ander";
+        String contra = "777";
         String alerta = "";
 
         public Boolean revisarCredenciales(String usuario, String contraseña)
