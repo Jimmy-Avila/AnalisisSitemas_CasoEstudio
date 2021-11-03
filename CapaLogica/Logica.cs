@@ -9,7 +9,7 @@ namespace CapaLogica
     public class Logica
     {
 
-        String nombre = "admin";
+        String nombre = "jimmito";
         String contra = "0000";
         String alerta = "";
 
@@ -18,7 +18,7 @@ namespace CapaLogica
 
             if (usuario.Equals(nombre) && contraseña.Equals(contra))
             {
-                return true;
+                return false;
             }
             else if (!usuario.Equals(nombre) && contraseña.Equals(contra))
             {
